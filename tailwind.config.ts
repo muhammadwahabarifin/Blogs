@@ -22,7 +22,7 @@ module.exports = {
       fontFamily: {
         sans: ['var(--font-graphik)'],
       },
-      typography: (theme) => ({
+      typography: (theme: (arg0: string) => any) => ({
         DEFAULT: {
           css: {
             color: theme('colors.gray.700'),
