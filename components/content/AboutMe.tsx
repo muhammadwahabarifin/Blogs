@@ -10,7 +10,7 @@ const AboutMe = () => {
       </h2>
 
       <p className='text-base text-gray-400'>
-      I am a passionate and versatile developer with  +{calculateDuration('2021-01-01', false)}  years of experience in JavaScript and a constant interest in learning new technologies. I am currently studying the path to become a DevOps and master tools or practices such as "Linux, to perform cost-effective, reliable and secure complete software delivery and maintenance.
+        I am a passionate and versatile developer with  +{calculateDuration('2021-01-01', false)}  years of experience in JavaScript and a constant interest in learning new technologies. I am currently studying the path to become a DevOps and master tools or practices such as "Linux, to perform cost-effective, reliable and secure complete software delivery and maintenance.
       </p>
 
     </AnimationContainer>

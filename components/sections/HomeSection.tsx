@@ -1,11 +1,11 @@
 import React from 'react'
-import SectionContainer from '../utils/SectionContainer'
-import Hero from '../content/Hero'
 import CurrentFavTech from '../content/CurrentFavTech'
 import CurrentLearning from '../content/CurrentLearning'
+import SectionContainer from '../utils/SectionContainer'
+import AnimationContainer from '../utils/AnimationContainer'
+import Hero from '../content/Hero'
 import AboutMe from '../content/AboutMe'
 import CurrentTimeLineExp, { calculateDuration } from '../content/CurrentTimeLineExp'
-import AnimationContainer from '../utils/AnimationContainer'
 import ContactMe from '../content/ContactMe'
 
 const HomeSection = () => {
