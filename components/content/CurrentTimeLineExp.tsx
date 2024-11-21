@@ -23,10 +23,15 @@ const CurrentTimeLineExp = () => {
 
       <TimelineEvent active>
 
-        <TimelineEvent.Title><a href='https://www.ia.com.mx' target='_blank' rel='noopener noreferrer' className='hover:text-white hover:underline transition-all ease'>IA Interactive</a> | Mar. 2023 - {calculateDuration('2023-03-01', true)}</TimelineEvent.Title>
+        <TimelineEvent.Title>
+          <a 
+          href='https://www.ia.com.mx' 
+          target='_blank' 
+          rel='noopener noreferrer' 
+          className='hover:text-white hover:underline transition-all ease'>IA Interactive</a> | Mar. 2023 - {calculateDuration('2023-03-01', true)}</TimelineEvent.Title>
 
         <TimelineEvent.Description>
-          Frontend development and maintenance of projects implementing agile methodologies (Kanban in Jira) and best practices such as SOLID principles, pixel perfect, clean architecture, clean code using Jira, SCRUM practices, Git, GitFlow practices, Bitbucket, HTML, CSS, Pug, SASS, Tailwind, JavaScript, TypeScript, React, Next.js, Redux, Zustand, Jest and using microfrontends and Storybook to facilitate the use of reusable components.
+           Development and maintenance of frontend projects implementing agile methodologies (Kanban in Jira) and best practices such as SOLID principles, pixel perfect, clean architecture, clean code using Jira, practices, Git, GitFlow, HTML, CSS, Pug, SASS, Tailwind, JavaScript, TypeScript, React, Next.js, Redux.
         </TimelineEvent.Description>
 
       </TimelineEvent>
@@ -43,7 +48,7 @@ const CurrentTimeLineExp = () => {
 
       <TimelineEvent last>
 
-        <TimelineEvent.Title>Studio Iluxion | May. 2022 - Jul. 2022</TimelineEvent.Title>
+        <TimelineEvent.Title>Studio Iluxion | May. 2020 - Aug. 2022</TimelineEvent.Title>
 
         <TimelineEvent.Description>
           Web designer and responsive web designer on projects using Figma, HTML, CSS, SCSS, SASS, Bootstrap, JavaScript, jQuery implementing SCRUM, pixel perfect and clean code.

@@ -3,6 +3,7 @@ import {Inter} from "next/font/google";
 import '../styles/globals.css'
 import clsx from "clsx";
 import Header from "@/components/ui/Header";
+import Footer from "@/components/ui/Footer";
 
 const inter = Inter({
   subsets: ['latin'],
@@ -31,6 +32,7 @@ export default function RootLayout({
         <main className="flex flex-col justify-center items-center mx-auto">
         {children}
         </main>
+        <Footer />
       </body>
     </html>
   );

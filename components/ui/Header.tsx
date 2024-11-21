@@ -17,13 +17,13 @@ const Header = () => {
           </h1>
         </div>
 
-        <div className='ml-[-0.80rem]'>
+        {/* <div className='ml-[-0.80rem]'>
 
           <MobileMenuNav />
 
           <NavItem />
 
-        </div>
+        </div> */}
 
       </nav>
     </HeaderAnimation>
