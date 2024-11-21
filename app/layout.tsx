@@ -1,16 +1,12 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
+import {Inter} from "next/font/google";
+import '../styles/globals.css'
+import clsx from "clsx";
+import Header from "@/components/ui/Header";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
@@ -24,11 +20,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en"
+    className={clsx(
+      'text-white bg-black'
+    )}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${inter.className} bg-[#080809] transition ease antialiased`}
       >
+        <Header />
+        <main className="flex flex-col justify-center items-center mx-auto">
         {children}
+        </main>
       </body>
     </html>
   );
