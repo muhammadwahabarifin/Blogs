@@ -1,12 +1,17 @@
 import classNames from 'classnames';
 import AnimationContainer from '../utils/AnimationContainer';
 import { TimelineEventProps } from '@/types';
+import { TbStack2 } from 'react-icons/tb';
 
 export const Timeline = ({ children }: { children: React.ReactNode }) => {
   return (
     <AnimationContainer customClassName='w-full mb-16'>
-
-      <h2 className='font-bold text-2xl tracking-tight mb-8 text-white text-center lg:text-start'>Experience</h2>
+      <div className='flex gap-3 items-center'>
+        <TbStack2 strokeWidth='1' className='w-10 md:w-10 h-full mb-4 text-yellow-600' />
+        <h2 className='font-bold text-2xl tracking-tight mb-4 text-white text-center lg:text-start'>
+          Experience
+        </h2>
+      </div>
 
       {children}
 
